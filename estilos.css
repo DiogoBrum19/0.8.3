@@ -1,0 +1,49 @@
+:root {
+
+    --cor1:#353232;
+    --cor2: white;
+
+}
+button {
+
+    border-radius: 8em;
+    padding: 15px;
+    background-color: var(--cor1);
+    border: none;
+    fill: var(--cor2);
+    position: relative;
+
+}
+button svg {
+
+    width: 40px;
+    height: 40px;
+
+}
+div span {
+
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    padding: 3px;
+}
+
+div {
+
+    text-align: right;
+
+}
+.flecha{
+    bottom: -4px;
+    height: 15px;
+    background-color:#686565 ;
+    width: 20px;
+    right: 1px;
+    border-radius: 18px;
+    padding: 3px;
+    position: absolute;
+}
+
