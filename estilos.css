@@ -1,28 +1,28 @@
 :root {
 
-    --cor1:#353232;
-    --cor2: white;
+  --cor1:#353232;
+  --cor2: white;
 
 }
 button {
 
-    border-radius: 8em;
-    padding: 15px;
-    background-color: var(--cor1);
-    border: none;
-    fill: var(--cor2);
-    position: relative;
+  border-radius: 8em;
+  padding: 15px;
+  background-color: var(--cor1);
+  border: none;
+  fill: var(--cor2);
+  position: relative;
 
 }
 button svg {
 
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 
 }
 div span {
 
-    position: absolute;
+  position: absolute;
     right: 5px;
     top: -5px;
     border-radius: 20px;
@@ -33,17 +33,38 @@ div span {
 
 div {
 
-    text-align: right;
+  text-align: right;
 
 }
 .flecha{
-    bottom: -4px;
-    height: 15px;
-    background-color:#686565 ;
-    width: 16px;
-    right: 1px;
-    border-radius: 18px;
-    padding: 3px;
-    position: absolute;
+  bottom: -4px;
+  height: 15px;
+  background-color:#686565 ;
+  width: 16px;
+  right: 1px;
+  border-radius: 18px;
+  padding: 3px;
+  position: absolute;
 }
+.logotipo{
+  width: 75px;
+  height: 75px;
+  padding-left: 20px;
+  fill: white;
+  border-radius: 20px;
+}
+.Facebook{
+  text-align: left;
+  position: absolute;
+}
+header{
+  background-color: rgb(43, 43, 177);
+  padding: 20px;
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+
+
 
